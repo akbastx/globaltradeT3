@@ -28,18 +28,6 @@ public class US15_AkbasStepDefinitions {
     public void user_should_see_mobile_phone_option() {
 
 
-    @When("User should reach mobile phone page")
-    public void user_should_reach_mobile_phone_page() {
-
     }
-
-    @Then("should see all product")
-    public void should_see_all_product() {
-
-    }
-        
-        //last update
-        //update again
-
 }
 
