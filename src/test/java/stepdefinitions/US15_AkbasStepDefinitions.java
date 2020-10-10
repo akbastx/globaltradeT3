@@ -26,9 +26,7 @@ public class US15_AkbasStepDefinitions {
 
     @Then("user should see mobile phone option")
     public void user_should_see_mobile_phone_option() {
-        String actual = mainPage.mobilePhone.getText().toLowerCase();
-        Assert.assertTrue(actual.contains("mobile phone"));
-    }
+
 
     @When("User should reach mobile phone page")
     public void user_should_reach_mobile_phone_page() {
