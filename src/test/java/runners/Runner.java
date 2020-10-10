@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
         //Path of the features folder
         features ="src/test/resources/features",
         //Path of the step definitions folder
-        glue = "stepdefinitions",
+        glue = "src/test/java/stepDefinitions",
         tags = "@wip",
         dryRun = false
 )
