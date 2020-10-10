@@ -29,6 +29,8 @@ public class US15_AkbasStepDefinitions {
     public void user_should_see_mobile_phone_option() {
         String actualText = mainPage.mobilePhone.getText();
         Assert.assertTrue(actualText.contains("Mobile Phones"));
+        
+        //edited
 
 
 //    }
