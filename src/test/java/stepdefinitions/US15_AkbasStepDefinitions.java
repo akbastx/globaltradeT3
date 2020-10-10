@@ -28,10 +28,7 @@ public class US15_AkbasStepDefinitions {
     public void user_should_see_mobile_phone_option() {
 
 
-
-
     }
-
 
 }
 
