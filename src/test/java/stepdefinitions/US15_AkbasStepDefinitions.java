@@ -15,8 +15,7 @@ public class US15_AkbasStepDefinitions {
 
     @Given("user is on the main page")
     public void user_is_on_the_main_page() {
-        Driver.getDriver().get(ConfigReader.getProperty("global_main_url"));
-
+        Driver.getDriver().get("https://glbtrader.com/");
     }
 
     @When("user clicks cell phone tab from menu")
@@ -27,22 +26,20 @@ public class US15_AkbasStepDefinitions {
 
     @Then("user should see mobile phone option")
     public void user_should_see_mobile_phone_option() {
-        String actualText = mainPage.mobilePhone.getText();
-        Assert.assertTrue(actualText.contains("Mobile Phones"));
+        String actual = mainPage.mobilePhone.getText().toLowerCase();
+        Assert.assertTrue(actual.contains("mobile phone"));
+    }
 
-
-//    }
-//
-//    @When("User should reach mobile phone page")
-//    public void user_should_reach_mobile_phone_page() {
-//
-//    }
-//
-//    @Then("should see all product")
-//    public void should_see_all_product() {
-//
-//    }
-
+    @When("User should reach mobile phone page")
+    public void user_should_reach_mobile_phone_page() {
 
     }
+
+    @Then("should see all product")
+    public void should_see_all_product() {
+
+    }
+
+
 }
+
