@@ -10,7 +10,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 
-public class US15_AkbasStepDefinitions {
+public class GLB15_Akbas_StepDefinitions {
 
     MainPage mainPage = new MainPage();
     MobilePhonesPage mobilePhonesPage = new MobilePhonesPage();
