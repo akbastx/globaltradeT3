@@ -4,7 +4,6 @@ Feature: As a User I should able to access mobile phone option under Cellphone&T
   Background:
     Given user is on the main page
 
-@wip
   Scenario: user clicks cell phone tab from menu
     When user clicks cell phone tab from menu
     Then user should see mobile phone option
