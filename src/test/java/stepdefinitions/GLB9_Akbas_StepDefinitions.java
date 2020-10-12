@@ -3,6 +3,9 @@ package stepdefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.SignUpPage;
 import utilities.ConfigReader;
 import utilities.Driver;
@@ -48,7 +51,18 @@ public class GLB9_Akbas_StepDefinitions {
 
     @Then("verify the success message is visible")
     public void verify_the_success_message_is_visible() {
-        Assert.assertTrue(signUpPage.successMessage.isDisplayed());
+
+
+
+
+            WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 2);
+       Assert.assertTrue(!wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//h3)[1]"))).isDisplayed());
+
+       // WebDriverWait wait = new WebDriverWait(Driver.getDriver(),2);
+      //  wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(("(//h3)[1]"))));
+
+
+
     }
 
 

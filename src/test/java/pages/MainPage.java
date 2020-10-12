@@ -12,11 +12,13 @@ public class MainPage {
     }
 
 
-    @FindBy(xpath = "//*[@id=\"vertical\"]/div/div[2]/ul/li[4]/a/span[2]")
+    @FindBy(xpath = "(//span[@class='icon_with_fon'])[4]")
     public WebElement cellPhoneTab;
 
-    @FindBy(xpath = "//*[@id=\"first-menu\"]/li/div/div/div/div[1]/div/div[1]/div/ul/li[2]/a")
+    @FindBy(partialLinkText = "Mobile Phones")
     public WebElement mobilePhone;
+
+
 
 
 
