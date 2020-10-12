@@ -42,4 +42,5 @@ public class MaliGlbLoginPage {
    // @FindBy(xpath = "//input[@style='border-color: red;']")
     @FindBy(xpath = "//input[@placeholder='Enter Password']")
     public WebElement redPasswordBox;
+    //this line for github
 }
