@@ -11,7 +11,7 @@ public class MobilePhonesPage {
     }
 
 
-    @FindBy(xpath = "(//div[1]/h3)[1]")
+    @FindBy(xpath = "(//h3)[1]")
     public WebElement products;
 
 }
