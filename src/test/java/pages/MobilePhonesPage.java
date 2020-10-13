@@ -5,22 +5,13 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class MainPage {
-
-    public MainPage(){
+public class MobilePhonesPage {
+    public MobilePhonesPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
 
-    @FindBy(xpath = "(//span[@class='icon_with_fon'])[4]")
-    public WebElement cellPhoneTab;
-
-    @FindBy(partialLinkText = "Mobile Phones")
-    public WebElement mobilePhone;
-
-
-
-
-
+    @FindBy(xpath = "(//h3)[1]")
+    public WebElement products;
 
 }
