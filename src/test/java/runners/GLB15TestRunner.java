@@ -15,10 +15,10 @@ import org.junit.runner.RunWith;
         //plugin = "html:target\\default-cucumber-reports",//for windows
         features ="src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@run",
+        tags = "@GLB15",
         dryRun = false
 
 )
-public class TestRunner {
+public class GLB15TestRunner {
 
 }
