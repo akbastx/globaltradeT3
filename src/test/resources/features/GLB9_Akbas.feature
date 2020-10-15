@@ -1,4 +1,4 @@
-@GLB9
+@hooks
 Feature: US9_Akbas_scenario_outline
   Scenario Outline: US9_Akbas_SignUp
     Given user is on the sign up page
@@ -12,7 +12,7 @@ Feature: US9_Akbas_scenario_outline
     Examples: test data for the data table test
       | email                     | name        | phone      | password   |
       #positive test
-      | Jansjaurfdjf34578@gmail.com   | Jujshadg2453456 | 5533118199 | 1234456Juan |
+      | Jansjhjkk578@gmail.com   | Jujshjfjh53456 | 5534418199 | 1234456Juan |
       #Short password
       | abc6454dsfds343284@gmail.com   | sam12334     | 122450789  | 123        |
       #email without @

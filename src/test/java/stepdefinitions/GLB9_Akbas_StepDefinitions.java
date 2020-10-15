@@ -52,16 +52,11 @@ public class GLB9_Akbas_StepDefinitions {
     @Then("verify the success message is visible")
     public void verify_the_success_message_is_visible() {
 
-
-
-
-            WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 2);
-       Assert.assertTrue(!wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//h3)[1]"))).isDisplayed());
-
-       // WebDriverWait wait = new WebDriverWait(Driver.getDriver(),2);
-      //  wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(("(//h3)[1]"))));
-
-
+        if(signUpPage.successMessage.isDisplayed()){
+            String message=signUpPage.successMessage.getText().toLowerCase();
+            Assert.assertTrue(message.contains("success"));
+        }else
+            Assert.fail();
 
     }
 

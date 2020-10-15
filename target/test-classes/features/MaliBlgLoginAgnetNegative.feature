@@ -1,4 +1,4 @@
-@wip
+
 Feature: MaliGlbLoginAgentPositive
 
   Background: login functionality with possible scenarios

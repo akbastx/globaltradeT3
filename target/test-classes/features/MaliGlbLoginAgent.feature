@@ -1,5 +1,5 @@
-@wip
-  Feature: MaliGlbLoginAgentPositive
+@run
+Feature: MaliGlbLoginAgentPositive
 
     Background: login functionality with possible scenarios
       Given user is on the Global Trader page

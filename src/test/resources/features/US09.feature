@@ -1,4 +1,4 @@
-@hoo
+
 Feature:
 
   Scenario: TC01  if there is no product I should see "Record Not Found.."

@@ -1,4 +1,4 @@
-@wip
+
 Feature: US15
   Background: user is on the Global Trader page
     Given user is on the Global Trader page

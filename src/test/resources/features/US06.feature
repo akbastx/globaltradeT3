@@ -1,4 +1,4 @@
-
+@run
 Feature:
 
   Background:

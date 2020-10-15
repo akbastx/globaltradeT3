@@ -1,4 +1,4 @@
-@GLB15
+
 Feature: As a User I should able to access mobile phone option under Cellphone&Telecommunication
 
   Background:
