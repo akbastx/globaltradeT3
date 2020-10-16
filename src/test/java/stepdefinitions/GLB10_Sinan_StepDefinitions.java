@@ -13,7 +13,7 @@ public class GLB10_Sinan_StepDefinitions {
     @Given("customer is on the homepage")
     public void customer_is_on_the_homepage() {
         Driver.getDriver().get(ConfigReader.getProperty("glb_trader_url"));
-
+//
     }
         @And("click on sign in")
     public void click_on_sign_in() {
