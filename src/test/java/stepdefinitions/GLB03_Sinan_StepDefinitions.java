@@ -28,6 +28,7 @@ public class GLB03_Sinan_StepDefinitions {
     public void user_enter_email(){
         homePage.usernamebox.click();
         homePage.usernamebox.sendKeys(ConfigReader.getProperty("seller_username"));
+        //
     }
     @And("user enter password")
     public void user_enter_password(){

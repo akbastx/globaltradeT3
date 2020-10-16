@@ -79,6 +79,7 @@ public class MainPage {
     public WebElement gb32;
     @FindBy(xpath = "//h4[@class='pro_new_head']")
     public WebElement infoText;
+    //
 
 
 
